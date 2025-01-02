@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "langchaintutorial"
+version = "0.0.1"
+description = "Tutorial projects for LangChain"
+authors = ["masashimorita"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
