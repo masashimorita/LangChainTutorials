@@ -9,10 +9,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 langchain = "^0.3.13"
-openai = "^1.58.1"
 fastapi = "^0.115.6"
 uvicorn = "^0.34.0"
 python-dotenv = "^1.0.1"
+langchain-openai = "^0.2.14"
+langchain-community = "^0.3.13"
+langchainhub = "^0.1.21"
+black = "^24.10.0"
 
 
 [build-system]
