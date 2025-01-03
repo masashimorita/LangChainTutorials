@@ -13,4 +13,4 @@ def read_root():
 
 @app.get("/ice_breaker/linkedin")
 def ice_breaker_linkedin():
-    return ice_break_with_linkedin()
+    return { "summary": ice_break_with_linkedin() }
